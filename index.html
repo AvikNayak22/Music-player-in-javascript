@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="music_container">
+        <div class="img_container">
+          <img src="images/Avik-1.jpg" alt="" />
+        </div>
+        <audio src="music/Avik-1.mp3"></audio>
+        <h3 id="title">Emotional Uplifting Piano</h3>
+        <h4 id="artist">Music_For_Videos</h4>
+        <div class="volume_slider_container">
+          <div class="volume_slider"></div>
+        </div>
+        <!-- progress bar -->
+        <div class="progressbar_container" id="progress_container">
+          <div class="progress_duration_meter">
+            <div id="current_time">0:00</div>
+            <div id="duration">2:44</div>
+          </div>
+          <div class="progress_div" id="progress_div">
+            <div class="progress" id="progress"></div>
+          </div>
+        </div>
+
+        <!-- controls -->
+        <div class="music_controls">
+          <!-- <i class="fa-solid fa-chevron-left" id="prev" title="previous"></i> -->
+          <i class="fa-solid fa-backward-step" id="prev" title="previous"></i>
+          <i
+            class="fa-sharp fa-solid fa-play main_button"
+            id="play"
+            title="play"
+          ></i>
+          <!-- <i class="fa-solid fa-chevron-right" id="next" title="next"></i> -->
+          <i class="fa-solid fa-forward-step" id="next" title="next"></i>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
