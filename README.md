@@ -3,4 +3,4 @@ This is a simple music player built using JavaScript that allows users to play, 
 
 **Installation**<br/>
 To run the music player, simply clone the repository and open the index.html file in your browser.
-__git clone https://github.com/your-username/music-player.git__
+** __git clone https://github.com/your-username/music-player.git__
