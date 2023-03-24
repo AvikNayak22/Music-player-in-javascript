@@ -1,3 +1,4 @@
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 **Minimalist Music Player**<br/>
 This is a simple music player built using JavaScript that allows users to play, pause, skip forward, and skip back through a playlist of songs. The player also includes a progress bar to track the current time and duration of the song being played.[Demo Here.](https://aviknayak22.github.io/Minimalist-music-player/)
 
