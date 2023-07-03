@@ -187,3 +187,70 @@ img {
   appearance: none;
   background-color: #fffbff;
 }
+
+/* Styles for devices with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  .music_container {
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+  }
+  
+  .image_container {
+    width: 60%;
+    height: auto;
+    margin: 2rem auto;
+  }
+  
+  .music_controls {
+    width: 80%;
+    margin-top: 2rem;
+  }
+  
+  .progress_div,
+  .volume_slider_container {
+    width: 90%;
+  }
+}
+
+/* Styles for devices with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+  .music_container {
+    padding: 1rem;
+  }
+  
+  .music_container #title {
+    font-size: 2rem;
+  }
+  
+  .music_container #artist {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .image_container {
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+  }
+  
+  .music_controls {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  
+  .music_controls .fa-solid {
+    font-size: 1.6rem;
+  }
+  
+  .music_controls .main_button {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .progress_div,
+  .volume_slider_container {
+    width: 95%;
+  }
+}
+
