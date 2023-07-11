@@ -21,8 +21,8 @@ You can see a live demo of the Mini Music Player <a href="https://aviknayak22.gi
 
 ## Usage
 1. Clone the repository: ```git clone https://github.com/AvikNayak22/Mini-music-player.git```</br>
-2. Open the **index.html** file in a web browser.</br>
-3. Add your own music files to the **music** folder and update the **songs.json** file with the appropriate track information.</br>
+2. Open the `index.html` file in a web browser.</br>
+3. Add your own music files to the `music` folder and update the `songs.json` file with the appropriate track information.</br>
 4. Interact with the music player using the provided controls to play, pause, and navigate between tracks.
 
 ## Contributing
@@ -33,4 +33,4 @@ The music files used in the demo are sourced from [pixabay](https://pixabay.com/
 
 ## Author
 - Avik Nayak
-- **GitHub:** @AvikNayak22
+- GitHub: **AvikNayak22**
